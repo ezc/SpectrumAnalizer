@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D902C983169C3EF8000CCCCF /* aurio_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D902C974169C3EF8000CCCCF /* aurio_helper.cpp */; };
+		D902C984169C3EF8000CCCCF /* rad2fft.c in Sources */ = {isa = PBXBuildFile; fileRef = D902C977169C3EF8000CCCCF /* rad2fft.c */; };
+		D902C985169C3EF8000CCCCF /* SpectrumAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D902C979169C3EF8000CCCCF /* SpectrumAnalysis.cpp */; };
+		D902C986169C3EF8000CCCCF /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D902C97C169C3EF8000CCCCF /* CADebugMacros.cpp */; };
+		D902C987169C3EF8000CCCCF /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D902C97F169C3EF8000CCCCF /* CAStreamBasicDescription.cpp */; };
+		D902C988169C3EF8000CCCCF /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D902C981169C3EF8000CCCCF /* CAXException.cpp */; };
+		D94910FE169C0597005170FB /* 01. Stargazers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D94910FD169C0597005170FB /* 01. Stargazers.mp3 */; };
+		D9491100169C06A8005170FB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94910FF169C06A8005170FB /* AVFoundation.framework */; };
+		D9491104169C06C6005170FB /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9491102169C06C6005170FB /* PlayerViewController.m */; };
+		D9491105169C06C6005170FB /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9491103169C06C6005170FB /* PlayerViewController.xib */; };
+		D949110B169C1B26005170FB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D949110A169C1B26005170FB /* MediaPlayer.framework */; };
+		D97449BB169C768A00876869 /* Analyzer.mm in Sources */ = {isa = PBXBuildFile; fileRef = D97449BA169C768A00876869 /* Analyzer.mm */; };
+		D97449C7169C79F200876869 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97449C6169C79F200876869 /* AudioToolbox.framework */; };
 		D978F4571696F53700E8FEF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D978F4561696F53700E8FEF2 /* UIKit.framework */; };
 		D978F4591696F53700E8FEF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D978F4581696F53700E8FEF2 /* Foundation.framework */; };
 		D978F45B1696F53700E8FEF2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D978F45A1696F53700E8FEF2 /* CoreGraphics.framework */; };
@@ -16,9 +29,32 @@
 		D978F4691696F53700E8FEF2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D978F4681696F53700E8FEF2 /* Default.png */; };
 		D978F46B1696F53700E8FEF2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D978F46A1696F53700E8FEF2 /* Default@2x.png */; };
 		D978F46D1696F53700E8FEF2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D978F46C1696F53700E8FEF2 /* Default-568h@2x.png */; };
+		D978F4941696FA5000E8FEF2 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D978F4931696FA5000E8FEF2 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D902C974169C3EF8000CCCCF /* aurio_helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aurio_helper.cpp; sourceTree = "<group>"; };
+		D902C975169C3EF8000CCCCF /* aurio_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aurio_helper.h; sourceTree = "<group>"; };
+		D902C977169C3EF8000CCCCF /* rad2fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rad2fft.c; sourceTree = "<group>"; };
+		D902C978169C3EF8000CCCCF /* rad2fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rad2fft.h; sourceTree = "<group>"; };
+		D902C979169C3EF8000CCCCF /* SpectrumAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpectrumAnalysis.cpp; sourceTree = "<group>"; };
+		D902C97A169C3EF8000CCCCF /* SpectrumAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpectrumAnalysis.h; sourceTree = "<group>"; };
+		D902C97C169C3EF8000CCCCF /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugMacros.cpp; sourceTree = "<group>"; };
+		D902C97D169C3EF8000CCCCF /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		D902C97E169C3EF8000CCCCF /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
+		D902C97F169C3EF8000CCCCF /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		D902C980169C3EF8000CCCCF /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		D902C981169C3EF8000CCCCF /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
+		D902C982169C3EF8000CCCCF /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
+		D94910FD169C0597005170FB /* 01. Stargazers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01. Stargazers.mp3"; sourceTree = "<group>"; };
+		D94910FF169C06A8005170FB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D9491101169C06C6005170FB /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		D9491102169C06C6005170FB /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		D9491103169C06C6005170FB /* PlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
+		D949110A169C1B26005170FB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D97449B9169C768A00876869 /* Analyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Analyzer.h; sourceTree = "<group>"; };
+		D97449BA169C768A00876869 /* Analyzer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Analyzer.mm; sourceTree = "<group>"; };
+		D97449C6169C79F200876869 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D978F4521696F53700E8FEF2 /* SpectrumAnalizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpectrumAnalizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D978F4561696F53700E8FEF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D978F4581696F53700E8FEF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,7 +68,7 @@
 		D978F4681696F53700E8FEF2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D978F46A1696F53700E8FEF2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D978F46C1696F53700E8FEF2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		D978F4741696F53700E8FEF2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D978F4931696FA5000E8FEF2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,12 +79,69 @@
 				D978F4571696F53700E8FEF2 /* UIKit.framework in Frameworks */,
 				D978F4591696F53700E8FEF2 /* Foundation.framework in Frameworks */,
 				D978F45B1696F53700E8FEF2 /* CoreGraphics.framework in Frameworks */,
+				D978F4941696FA5000E8FEF2 /* Accelerate.framework in Frameworks */,
+				D9491100169C06A8005170FB /* AVFoundation.framework in Frameworks */,
+				D949110B169C1B26005170FB /* MediaPlayer.framework in Frameworks */,
+				D97449C7169C79F200876869 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D902C973169C3EF8000CCCCF /* AudioUtilites */ = {
+			isa = PBXGroup;
+			children = (
+				D902C974169C3EF8000CCCCF /* aurio_helper.cpp */,
+				D902C975169C3EF8000CCCCF /* aurio_helper.h */,
+				D902C976169C3EF8000CCCCF /* fft */,
+				D902C97B169C3EF8000CCCCF /* iPublicUtility */,
+			);
+			path = AudioUtilites;
+			sourceTree = "<group>";
+		};
+		D902C976169C3EF8000CCCCF /* fft */ = {
+			isa = PBXGroup;
+			children = (
+				D902C977169C3EF8000CCCCF /* rad2fft.c */,
+				D902C978169C3EF8000CCCCF /* rad2fft.h */,
+				D902C979169C3EF8000CCCCF /* SpectrumAnalysis.cpp */,
+				D902C97A169C3EF8000CCCCF /* SpectrumAnalysis.h */,
+			);
+			path = fft;
+			sourceTree = "<group>";
+		};
+		D902C97B169C3EF8000CCCCF /* iPublicUtility */ = {
+			isa = PBXGroup;
+			children = (
+				D902C97C169C3EF8000CCCCF /* CADebugMacros.cpp */,
+				D902C97D169C3EF8000CCCCF /* CADebugMacros.h */,
+				D902C97E169C3EF8000CCCCF /* CAMath.h */,
+				D902C97F169C3EF8000CCCCF /* CAStreamBasicDescription.cpp */,
+				D902C980169C3EF8000CCCCF /* CAStreamBasicDescription.h */,
+				D902C981169C3EF8000CCCCF /* CAXException.cpp */,
+				D902C982169C3EF8000CCCCF /* CAXException.h */,
+			);
+			path = iPublicUtility;
+			sourceTree = "<group>";
+		};
+		D94910FB169C0586005170FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D94910FC169C0597005170FB /* audio */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D94910FC169C0597005170FB /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				D94910FD169C0597005170FB /* 01. Stargazers.mp3 */,
+			);
+			name = audio;
+			path = Resources/audio;
+			sourceTree = "<group>";
+		};
 		D978F4471696F53700E8FEF2 = {
 			isa = PBXGroup;
 			children = (
@@ -69,10 +162,13 @@
 		D978F4551696F53700E8FEF2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D97449C6169C79F200876869 /* AudioToolbox.framework */,
+				D949110A169C1B26005170FB /* MediaPlayer.framework */,
+				D94910FF169C06A8005170FB /* AVFoundation.framework */,
+				D978F4931696FA5000E8FEF2 /* Accelerate.framework */,
 				D978F4561696F53700E8FEF2 /* UIKit.framework */,
 				D978F4581696F53700E8FEF2 /* Foundation.framework */,
 				D978F45A1696F53700E8FEF2 /* CoreGraphics.framework */,
-				D978F4741696F53700E8FEF2 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -80,8 +176,9 @@
 		D978F45C1696F53700E8FEF2 /* SpectrumAnalizer */ = {
 			isa = PBXGroup;
 			children = (
-				D978F4651696F53700E8FEF2 /* AppDelegate.h */,
-				D978F4661696F53700E8FEF2 /* AppDelegate.m */,
+				D902C973169C3EF8000CCCCF /* AudioUtilites */,
+				D94910FB169C0586005170FB /* Resources */,
+				D978F9211697074800E8FEF2 /* Application */,
 				D978F45D1696F53700E8FEF2 /* Supporting Files */,
 			);
 			path = SpectrumAnalizer;
@@ -99,6 +196,20 @@
 				D978F46C1696F53700E8FEF2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D978F9211697074800E8FEF2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D978F4651696F53700E8FEF2 /* AppDelegate.h */,
+				D978F4661696F53700E8FEF2 /* AppDelegate.m */,
+				D9491101169C06C6005170FB /* PlayerViewController.h */,
+				D9491102169C06C6005170FB /* PlayerViewController.m */,
+				D9491103169C06C6005170FB /* PlayerViewController.xib */,
+				D97449B9169C768A00876869 /* Analyzer.h */,
+				D97449BA169C768A00876869 /* Analyzer.mm */,
+			);
+			name = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +267,8 @@
 				D978F4691696F53700E8FEF2 /* Default.png in Resources */,
 				D978F46B1696F53700E8FEF2 /* Default@2x.png in Resources */,
 				D978F46D1696F53700E8FEF2 /* Default-568h@2x.png in Resources */,
+				D94910FE169C0597005170FB /* 01. Stargazers.mp3 in Resources */,
+				D9491105169C06C6005170FB /* PlayerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +281,14 @@
 			files = (
 				D978F4631696F53700E8FEF2 /* main.m in Sources */,
 				D978F4671696F53700E8FEF2 /* AppDelegate.m in Sources */,
+				D9491104169C06C6005170FB /* PlayerViewController.m in Sources */,
+				D902C983169C3EF8000CCCCF /* aurio_helper.cpp in Sources */,
+				D902C984169C3EF8000CCCCF /* rad2fft.c in Sources */,
+				D902C985169C3EF8000CCCCF /* SpectrumAnalysis.cpp in Sources */,
+				D902C986169C3EF8000CCCCF /* CADebugMacros.cpp in Sources */,
+				D902C987169C3EF8000CCCCF /* CAStreamBasicDescription.cpp in Sources */,
+				D902C988169C3EF8000CCCCF /* CAXException.cpp in Sources */,
+				D97449BB169C768A00876869 /* Analyzer.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
