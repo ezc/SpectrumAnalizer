@@ -39,7 +39,6 @@
     else {
         NSLog(@"empty player");
     }
-
 }
 
 - (IBAction)movie

@@ -18,6 +18,7 @@
 		D9491104169C06C6005170FB /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9491102169C06C6005170FB /* PlayerViewController.m */; };
 		D9491105169C06C6005170FB /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9491103169C06C6005170FB /* PlayerViewController.xib */; };
 		D949110B169C1B26005170FB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D949110A169C1B26005170FB /* MediaPlayer.framework */; };
+		D9652851169F07FA0030BC45 /* AudioQueuePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D9652850169F07FA0030BC45 /* AudioQueuePlayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D97449BB169C768A00876869 /* Analyzer.mm in Sources */ = {isa = PBXBuildFile; fileRef = D97449BA169C768A00876869 /* Analyzer.mm */; };
 		D97449C7169C79F200876869 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97449C6169C79F200876869 /* AudioToolbox.framework */; };
 		D978F4571696F53700E8FEF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D978F4561696F53700E8FEF2 /* UIKit.framework */; };
@@ -52,6 +53,8 @@
 		D9491102169C06C6005170FB /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
 		D9491103169C06C6005170FB /* PlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
 		D949110A169C1B26005170FB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D965284F169F07FA0030BC45 /* AudioQueuePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioQueuePlayer.h; sourceTree = "<group>"; };
+		D9652850169F07FA0030BC45 /* AudioQueuePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioQueuePlayer.m; sourceTree = "<group>"; };
 		D97449B9169C768A00876869 /* Analyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Analyzer.h; sourceTree = "<group>"; };
 		D97449BA169C768A00876869 /* Analyzer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Analyzer.mm; sourceTree = "<group>"; };
 		D97449C6169C79F200876869 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -208,6 +211,8 @@
 				D9491103169C06C6005170FB /* PlayerViewController.xib */,
 				D97449B9169C768A00876869 /* Analyzer.h */,
 				D97449BA169C768A00876869 /* Analyzer.mm */,
+				D965284F169F07FA0030BC45 /* AudioQueuePlayer.h */,
+				D9652850169F07FA0030BC45 /* AudioQueuePlayer.m */,
 			);
 			name = Application;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 				D902C987169C3EF8000CCCCF /* CAStreamBasicDescription.cpp in Sources */,
 				D902C988169C3EF8000CCCCF /* CAXException.cpp in Sources */,
 				D97449BB169C768A00876869 /* Analyzer.mm in Sources */,
+				D9652851169F07FA0030BC45 /* AudioQueuePlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

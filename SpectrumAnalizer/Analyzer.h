@@ -19,6 +19,8 @@
     AudioUnit rioUnit;
     AURenderCallbackStruct inputProc;
     CAStreamBasicDescription thruFormat;
+
+    AudioComponentInstance toneUnit;
 }
 
 @end
