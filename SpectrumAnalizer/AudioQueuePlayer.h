@@ -13,7 +13,9 @@
 {
     AudioFileID audioFile;
     AudioStreamBasicDescription dataFormat;
+
     AudioQueueRef audioQueue;
+    AudioQueueBufferRef *mBuffers;
 }
 
 - (id) initWithFilePath:(NSString *) filePath;

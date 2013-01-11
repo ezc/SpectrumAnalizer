@@ -13,13 +13,13 @@
 		D902C986169C3EF8000CCCCF /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D902C97C169C3EF8000CCCCF /* CADebugMacros.cpp */; };
 		D902C987169C3EF8000CCCCF /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D902C97F169C3EF8000CCCCF /* CAStreamBasicDescription.cpp */; };
 		D902C988169C3EF8000CCCCF /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D902C981169C3EF8000CCCCF /* CAXException.cpp */; };
+		D927EDF0169FFE8900C2A0A6 /* AudioFileHelper.c in Sources */ = {isa = PBXBuildFile; fileRef = D927EDEF169FFE8900C2A0A6 /* AudioFileHelper.c */; };
 		D94910FE169C0597005170FB /* 01. Stargazers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D94910FD169C0597005170FB /* 01. Stargazers.mp3 */; };
 		D9491100169C06A8005170FB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94910FF169C06A8005170FB /* AVFoundation.framework */; };
 		D9491104169C06C6005170FB /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9491102169C06C6005170FB /* PlayerViewController.m */; };
 		D9491105169C06C6005170FB /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9491103169C06C6005170FB /* PlayerViewController.xib */; };
 		D949110B169C1B26005170FB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D949110A169C1B26005170FB /* MediaPlayer.framework */; };
 		D9652851169F07FA0030BC45 /* AudioQueuePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D9652850169F07FA0030BC45 /* AudioQueuePlayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D97449BB169C768A00876869 /* Analyzer.mm in Sources */ = {isa = PBXBuildFile; fileRef = D97449BA169C768A00876869 /* Analyzer.mm */; };
 		D97449C7169C79F200876869 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97449C6169C79F200876869 /* AudioToolbox.framework */; };
 		D978F4571696F53700E8FEF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D978F4561696F53700E8FEF2 /* UIKit.framework */; };
 		D978F4591696F53700E8FEF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D978F4581696F53700E8FEF2 /* Foundation.framework */; };
@@ -47,6 +47,8 @@
 		D902C980169C3EF8000CCCCF /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
 		D902C981169C3EF8000CCCCF /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
 		D902C982169C3EF8000CCCCF /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
+		D927EDEE169FFE7400C2A0A6 /* AudioFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFileHelper.h; sourceTree = "<group>"; };
+		D927EDEF169FFE8900C2A0A6 /* AudioFileHelper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AudioFileHelper.c; sourceTree = "<group>"; };
 		D94910FD169C0597005170FB /* 01. Stargazers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01. Stargazers.mp3"; sourceTree = "<group>"; };
 		D94910FF169C06A8005170FB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D9491101169C06C6005170FB /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
@@ -55,8 +57,6 @@
 		D949110A169C1B26005170FB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		D965284F169F07FA0030BC45 /* AudioQueuePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioQueuePlayer.h; sourceTree = "<group>"; };
 		D9652850169F07FA0030BC45 /* AudioQueuePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioQueuePlayer.m; sourceTree = "<group>"; };
-		D97449B9169C768A00876869 /* Analyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Analyzer.h; sourceTree = "<group>"; };
-		D97449BA169C768A00876869 /* Analyzer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Analyzer.mm; sourceTree = "<group>"; };
 		D97449C6169C79F200876869 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D978F4521696F53700E8FEF2 /* SpectrumAnalizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpectrumAnalizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D978F4561696F53700E8FEF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -126,6 +126,15 @@
 				D902C982169C3EF8000CCCCF /* CAXException.h */,
 			);
 			path = iPublicUtility;
+			sourceTree = "<group>";
+		};
+		D927EDEC169FFD3D00C2A0A6 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				D927EDEE169FFE7400C2A0A6 /* AudioFileHelper.h */,
+				D927EDEF169FFE8900C2A0A6 /* AudioFileHelper.c */,
+			);
+			name = Utilites;
 			sourceTree = "<group>";
 		};
 		D94910FB169C0586005170FB /* Resources */ = {
@@ -204,13 +213,12 @@
 		D978F9211697074800E8FEF2 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				D927EDEC169FFD3D00C2A0A6 /* Utilites */,
 				D978F4651696F53700E8FEF2 /* AppDelegate.h */,
 				D978F4661696F53700E8FEF2 /* AppDelegate.m */,
 				D9491101169C06C6005170FB /* PlayerViewController.h */,
 				D9491102169C06C6005170FB /* PlayerViewController.m */,
 				D9491103169C06C6005170FB /* PlayerViewController.xib */,
-				D97449B9169C768A00876869 /* Analyzer.h */,
-				D97449BA169C768A00876869 /* Analyzer.mm */,
 				D965284F169F07FA0030BC45 /* AudioQueuePlayer.h */,
 				D9652850169F07FA0030BC45 /* AudioQueuePlayer.m */,
 			);
@@ -293,8 +301,8 @@
 				D902C986169C3EF8000CCCCF /* CADebugMacros.cpp in Sources */,
 				D902C987169C3EF8000CCCCF /* CAStreamBasicDescription.cpp in Sources */,
 				D902C988169C3EF8000CCCCF /* CAXException.cpp in Sources */,
-				D97449BB169C768A00876869 /* Analyzer.mm in Sources */,
 				D9652851169F07FA0030BC45 /* AudioQueuePlayer.m in Sources */,
+				D927EDF0169FFE8900C2A0A6 /* AudioFileHelper.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
